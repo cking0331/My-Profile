@@ -1,0 +1,11 @@
+[build]
+  publish = "dist/public"
+  command = "PORT=4173 BASE_PATH=/ pnpm run build"
+
+[build.environment]
+  NODE_VERSION = "24"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
