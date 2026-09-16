@@ -1,5 +1,5 @@
 [build]
-  publish = "dist/public"
+  publish = "artifacts/portfolio/dist/public"
   command = "PORT=4173 BASE_PATH=/ pnpm run build"
 
 [build.environment]
